@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/see-world/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/see-world/assets/index-3d1d9f03.css">
+  </head>
+  <body>
+   <header class="header">
+    <div class="container header__container">
+      <button class="header__btn">
+        <svg class="header__icone">
+          <use href="/see-world/assets/symbol-defs-9c65c290.svg#icon-menu" data-menu-open></use>
+        </svg>
+      </button>
+      <a href="/" class="header__logo">
+        <svg class="header__icon">
+          <use href="/see-world/assets/symbol-defs-9c65c290.svg#icon-logo"></use>
+        </svg>
+
+        <p class="header__text">See World</p>
+      </a>
+      <ul class="header__list">
+        <li class="hesder__item">
+          <a href="/" class="header__page">Головна </a>
+        </li>
+        <li class="header__item">
+          <a href="/" class="header__page">Всі оголошення</a>
+        </li>
+
+        <li class="header__item">
+          <a href="/">
+            <svg class="header__heart">
+              <use href="/see-world/assets/symbol-defs-9c65c290.svg#icon-heart"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="header__item">
+          <a href="/" class="header__page header__flex">
+            <svg class="header__user">
+              <use href="/see-world/assets/symbol-defs-9c65c290.svg#icon-user"></use>
+            </svg>
+
+            Особистий кабінет</a
+          >
+        </li>
+      </ul>
+      <button class="header__button">Зареєстуватись</button>
+    </div>
+  </header>
+    <main>
+       <section class="hero">
+    <div class="container">
+      <div class="hero__father">
+        <picture class="hero__pict">
+            <source
+              srcset="data:image/webp;base64,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 1x, /see-world/assets/pictsmall@desktop2x-f2525fd5.webp 2x"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="data:image/webp;base64,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 1x, /see-world/assets/pictsmall@tablet2x-7910baff.webp 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="data:image/webp;base64,UklGRjYDAABXRUJQVlA4WAoAAAAQAAAAJAAALQAAQUxQSFQBAAABkHPbtrE959Fn27ZtlV9lo2OMH5BURonStm2nsm3bfO6ni3O+jPQRMQHwv9c0jcrwis/Mzc2M89bwNN/6pTfff/n67ev7+8trgpD8pz35ywaEjH1bnKGpaZm7fgyofpzhpaLl32AD6uxApELGnQHcMzFS1m6GNHA7Tqb89wD6CReJ2QP4rEeknycYeOgl8PxG8adVkMQoBnaYvEyaB168eJofkTy/3yR2Hs94TlPEgxUkv9MFTSSfIgSBryiuuwpgOsNjizSRx12839Ug2WajXfKSMTZj/RinyUDcQxx7kydIa60fUB7lgqI5+QfCuy5Qdlqo9n2ysxpYG1TsGTpghp2Rs9c7AW7YXRm2PQiwC75InAsA/DG/BB/ygNBjCe9zN5CGXBxhzzdowGns3QG2zR2oY458exwJ1NqaXz/nALnLlwG2gA6m3v05GoyEquBR8A8DVlA4ILwBAADQCQCdASolAC4APpE+mUglo6KhKrqsALASCWwAuyE1vL4HO2wjUBwyRYEqdbqIfbK/uqoFVRY/7rQFx6GwkV3grRShqxytmSS0Y1owABj02/C2cbc5xCgA/vsspruE4vjX+GRRlvxn7Jdu5V8HidJfhx4uEdr9ex+lTw5+OuHqej0YUarY//0J5RK6DXztgwS3ZqCQIWAzNPIxJCoGN27JvmnUWzN/VZ9WAp5+IuBZtZwgA5LC+ZuZozYUv2t7tfXeH/jJPGiw+v26wnIB9UGf//6g2qWvqlwJngF2UlZ2qq3w4zHRMcMabsudu41Siu8Og3jqdqgzQ4/+14vs4uZukprQm8UQAuTB+pYHplz5wY06T7XiM4de+UxmCmISQMPuttA0D62v3s34ynUy02qZLgtsKu3w+CKYyj/ERJdBOSZCd8P2E1oXV4+UqhOKrsI7gJRlair5A99g5L53/y5T3vORHB8JsRxwLZbFD+/yhHSd/XIkPg1DvI1CtGXGlw7SpCYJ/89so/IQ4041nqnkqEGdozcTtf+aKH2SiCKdyxilzgTpga9UeQ2zHPJ3+I8I3wCP//5vimcgAAA= 1x, data:image/webp;base64,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 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="hero__images"
+              src="data:image/webp;base64,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"
+              alt="laptop"
+            />
+          </picture>
+          <h1 class="hero__title">Знайди своє місце</h1>
+      </div>
+      <h2 class="hero__subtitle">Подорожуй зі смаком</h2>
+      <button class="hero__button">Знайти оголошення</button>
+      <button class="hero__btn">Подати оголошення</button>
+    </div>
+  </section>
+      <section class="advirtisement">
+    <div class="container">
+        <h2 class="advertisement__subtitle">
+            Критерії оголошення
+        </h2>
+        <ul class="advertisement__list">
+            <li class="advertisement__item">
+                <img class="advertisement__photo" src="/see-world/assets/house-e3ac8b0e.webp" alt="house">
+                <h3 class="advertisement__name">Будинки</h3>
+            </li>
+            <li class="advertisement__item">
+                <img src="/see-world/assets/kitchen-4348948f.webp" alt="kitchen">
+                <h3 class="advertisement__name">Студії</h3>
+            </li>
+            <li class="advertisement__item">
+                <img class="advertisement__photo" src="/see-world/assets/block-df727ae3.webp" alt="block">
+                <h3 class="advertisement__name">Квартири</h3>
+            </li>
+            <li class="advertisement__item">
+                <img class="advertisement__photo" src="/see-world/assets/bed-1b6f74f8.webp" alt="bed">
+                <h3 class="advertisement__name">Кімнати</h3>
+            </li>
+        </ul>
+    </div>
+</section>
+      <section class="countries">
+    <div class="container">
+        <h2 class="countries__subtitle">
+            Найпопулярніші країни для подорожей
+        </h2>
+        <div class="countries__box">
+            <h3 class="countries__tatris-title">Франція</h3>
+            <a href="" class="countries__logo"> Відкрити всі оголошення</a>
+        </div>
+        <ul class="countries__list">
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/nantes-471d166c.webp" alt="Nantes">
+                <p class="countries__text">Nantes</p>
+                <p class="countries__text">10 753 готелів</p>
+            </li>
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/Montpellier-331747d7.webp" alt="Montpellier">
+                <p class="countries__text">Montpellier</p>
+                <p class="countries__text">11 386 готелів</p>
+            </li>
+            <li>
+
+                <img class="countries__photo" src="/see-world/assets/Paris-1211e30e.webp" alt="Paris">
+                <p class="countries__text">Paris</p>
+                <p class="countries__text">12 278 готелів</p>
+            </li>
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/Venezia-bccceab9.webp" alt="Venezuela">
+                <p class="countries__text">Venezia</p>
+                <p class="countries__text">14 120 готелів</p>
+            </li>
+            <li>
+                <img class="countries__photo" src="/see-world/assets/Firenze-66f0dafd.webp" alt="Frirenze">
+                <p class="countries__text">Firenze</p>
+                <p class="countries__text">7 988 готелів</p>
+            </li>
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/roma-1941fc8f.webp" alt="Roma">
+                <p class="countries__text">Roma</p>
+                <p class="countries__text">12 809 готелів</p>
+            </li>
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/Selvia-7d06e363.jpg" alt="Selvia">
+                <p class="countries__text">Selvia</p>
+                <p class="countries__text">8 984готелів</p>
+            </li>
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/Madrit-a0e2c607.jpg" alt="Madrit">
+                <p class="countries__text">Madrit</p>
+                <p class="countries__text">15 325 готелів</p>
+            </li>
+            <li class="countries__item">
+                <img class="countries__photo" src="/see-world/assets/Mallorca-f37379f9.jpg" alt="Mallorca">
+                <p class="countries__text">Mallorca</p>
+                <p class="countries__text">
+
+                    9 825 готелів
+                </p>
+            </li>
+        </ul>
+    </div>
+
+</section>
+      <section class="last">
+    <div class="container">
+        <div class="last__folder">
+            <h2 class="last__subtitle">
+                Останні оголошення
+            </h2>
+            <a href="" class="last__title">
+                Відкрити всі оголошення
+            </a>
+        </div>
+        <ul class="last__list">
+            <li class="">
+                <img class="last__photo" src="/see-world/assets/room3-b3ec3b98.webp" alt="Vila Gale Lagos Hotel">
+                <div class="last__box">
+                    <h3 class="last__name">Vila Gale Lagos Hotel</h3>
+                    <p class="last__text">Andresen, Portugal </p>
+                    <p class="last__rating">7,1</p>
+                </div>
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/bedroom-4bf548c5.webp" alt="Cala Moresca ">
+                <div class="last__box">
+                    <h3 class="last__name">Cala Moresca </h3>
+                    <p class="last__text">Via Faro, Italy</p>
+                    <p class="last__rating">8,6</p>
+                </div>
+
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/kitchen2-c4ac5030.webp" alt="Horison Blu">
+                <div class="last__box">
+                    <h3 class="last__name">Horison Blu</h3>
+                    <p class="last__text">Petrou Karakousi, Greece</p>
+                    <p class="last__rating">5,9</p>
+                </div>
+
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/room3-b3ec3b98.webp" alt="Le Galion Hotel">
+                <div class="last__box">
+                    <h3 class="last__name">Le Galion Hotel</h3>
+                    <p class="last__text">Saint-Martin-de-Re, France</p>
+                    <p class="last__rating">8,4</p>
+                </div>
+
+            </li>
+            <li>
+                <img class="last__photo" src="/see-world/assets/roma-1941fc8f.webp" alt="Molitor Hotel">
+                <div class="last__box">
+                    <h3 class="last__name">Molitor Hotel</h3>
+                    <p class="last__text">Paris, France</p>
+                    <p class="last__rating">6,9</p>
+                </div>
+
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/sofa-7d3e78b5.jpg" alt="Sierra de Meira">
+                <div class="last__box">
+                    <h3 class="last__name">Sierra de Meira</h3>
+                    <p class="last__text">Madrid, Spain</p>
+                    <p class="last__rating">7,4</p>
+                </div>
+
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/villa2-4a47c857.webp" alt="Petit Hotel">
+                <div class="last__box">
+                    <h3 class="last__name">Petit Hotel</h3>
+                    <p class="last__text">Madrid, Spain</p>
+                    <p class="last__rating">7,2</p>
+                </div>
+
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/vilal-e3d8409b.webp" alt="Gran Hotel">
+                <div class="last__box">
+                    <h3 class="last__name">Gran Hotel</h3>
+                    <p class="last__text">Alicante, Spain</p>
+                    <p class="last__rating">8,9</p>
+                </div>
+
+            </li>
+            <li class="last__item">
+                <img class="last__photo" src="/see-world/assets/bedroom-d2e465b6.jpg" alt="KViHotel">
+                <div class="last__box">
+                    <h3 class="last__name">KViHotel</h3>
+                    <p class="last__text">Madrid, Spain</p>
+                    <p class="last__rating">7,2</p>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+
+</section>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+            <a class="footer__logo" href="">
+                <img class="footer__photo" src="data:image/webp;base64,UklGRiIEAABXRUJQVlA4WAoAAAAQAAAANgAANgAAQUxQSGsCAAABoFXbVhjZ2hJwcI8EHDwk4KBx0Dio4yA4IA7yHCAhEo4EJOyPSshJK4iICYCz5KrfJUX82VCPyXP0T8n/SaptK/IX0uC94lrqlt9KJ28nM1bLKG/Ewet59prwsBzi9qtpfs2RAOTjHLoSo358Qo8IXwrHED/GaUdwEOsCyDEqHkoWQEny6DR5JGYBvvk8A0KuxtxIkwdi9VN9dKZpEqJpD3KSJkvBSHIEDyC2bTOSnJMkz7BSB8k5ik9QPtwWyiCthtF9AH3AfCM2yVkjfM3G5Oh1druZ4aqTHC3AeZJsglx2VZJyTOqF0Djgf5AmQJBQfkY/a042w1cnD7z50TrMbEhCOippRgUgJOWNX97iO5bdyDMAhRx4MfPeukgFpJKzAoMmL8i5QHLQeh0kBwJZ4J8nnWfIVeoLRs8+Oc/UgOhX6Dob2euGrNGt+lBJdu2IZcTgk53GTp7WEeD+cWIiz3MW+O9efe6qWhCSV/Kixk1DyzbtUBcUrzm0Q3Z+by6oTmxNgXJBO8QBZZIctTwRVaBfkeYBEQQAkpcatAG2IB73acUArf9w3tE28dOVglhiwVgg7dDgJHY3gRLRkJZI2scH9c6ABmjAeMDpFO6I2IBUUJ40J9iNBYsAFGhrFpyEt60NACgJaEsJzv1GYeULHch/YdwgGS5ThizBW68MJV1hC1hRt3AlorgNCruyhBcvFCp3SHW/+h9vHiR3fCJW67wweSVzKn4q1vWrCV4NGfhRPFWeVfD6j+K5drz/qfDMKi9Jj/AVLa/8aoB7HsktacKrZS/BIVRNeD22rciSlFYT/mYser9rEbgCAFZQOCCQAQAAsAkAnQEqNwA3AD6ROJVHpaMiITP02qiwEglsALs5ADo3qE+S4kPgHVJINrgeoDbAeYDzyPQ3/lN8A3kP/BgvA++NyEvVwpMgBOop7MSc0uN63qbn9QAA/vMD//sg//sZj//YexAhrDc/fvTQtPXs7GJcTwTIePBKbAmRZ+xKP8PN0GW5nGVSoiZsFdNKInSFmCm7B9nz4suuT12v/CbZBXrbVFcXcpXmue4Nfum35HpHQ9J6NO97T5/2sG//9QgYlSNgl45PG9/aAJSQVLgDlZ99+j2ZaJKYVDFdggVsguCTb34mDFdPip6/2Es/dzwMpYe45NmG3d0TOAwcdcckQFs0Mp4HisWEWsDe1CnYU5NyOsw3A3rYZw3hd3fvOr//ykitrxOn/Wo8H0rNb8HuICxJKwta9wzoeQyLC1msREzGBpNIOY7/rD61/IE7tG6WpP+Uf//1CBAO9lcgY5BbSe4bsWS7aTW803N1LNVTCSAXRCcS/IcWsQTWkOY3Ll/2Rzi7nZYb+Zk5//9jCTgAAA==" alt="planet">See World</a>
+
+
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="">Головна </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Всі оголошення</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Обране</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Особистий кабінет</a>
+                    <ul class="footer__socials">
+                        <li class="footer__item">
+                            <a href="">
+                                <img class="footer__social" src="data:image/webp;base64,UklGRgoBAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSHAAAAABf2CQbaQ/gqvBK7y/3ktERI5v9lKA40iSHKXRcmJwDBvABMzjiQkbOHAuzA9NfXYWaUBE/ydAr6/2YMkR8OSx7kWy63rKDpvtkyS8gGXhSpseeIBVwEqDJJ3mLZdJDSswqDzwoFM9PFz/ARoKWJYDVlA4IHQAAACQBACdASoYABgAPpE6mUeloyKhKA1QsBIJaAC7OUE0A4QzQEIAAKTH2nmGW6AA/vxHayMkOTNclLDBo60cibfRwErFdjU7a1/I7ZpXZvaX19rzu938Dh8A3VDqVLH1hX//ZVa7KOkvWl7ef+9a4kdwBLAAAA==" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="">
+                                <img class="footer__social" src="data:image/webp;base64,UklGRnQBAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSKwAAAABgFXbbt1IEMSggmAIhhAIhhAGEYOEgcsgZWAIhiAIhnB+8mpnAETEBMg/mte9R3Aa0dtaRGTh0UUy+JTMVI7NUvZB3ljlQWdr5KM5X5n4dNJBhmpnRgz0DBY7UgbISX9DlAOBK01swPyENQh7YMBwlZPgdQKbyrERnXSg0bKcZ9qbcnBz5jPT7Z4GRQN622ut7u611tpiECq282AzERFNeSpldncvpZScVP5TVlA4IKIAAABwBQCdASoYABgAPpFCm0olo6IhqAgAsBIJbACdMyQCroAP0r8yv9M+D/0p32a/+2BCupfAAP7tBywa3wBxdMPi41beWhMB+YLSweNO+EJiZljXfFT4t1a4+DeOySzamyh5vMC0pklB+f5dwBBLtGY1j/lK0CY0X/afH8u1zk//2Rz0LOKlvFj2p/9gAs81/9vutEW6lRmx/+/Gh6+/8qrAAAA=" alt="youtube">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">
+                                <img class="footer__social" src="data:image/webp;base64,UklGRmwBAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSJsAAAABgFZbb9jmQRCDGkIhGIIhmEHLIGIwSIZgCIIQCN8P50grg4iYAH5p11J6z6cWKkc7QtGN7AiFwVQYRQs5bA3SzRtdCyTyLsekzFjSnjRvkLr0+MeZmdLXmLdmZekLMLQqt+xAqr3+acmPj3alS1ezS5oVXI9Oife679VJ2UP+WOq1oQ2usIqFJlgoRsp6KABaqBztgLlzy41fAgBWUDggqgAAAJAFAJ0BKhgAGAA+kT6bSSWjIqEoCqiwEglqAJ0yhHtfoFyGcA2wHPHaYB6AHld+ymBCfqgAAP7tBy5Ido5P8OcDocm4KcchX18xx28Mu5od4NzhMjmd1qf+9Cw8I1lx7QrmvDSp9nTlZ2wn3UgWnP/um2MSNBxvHgnGUh8FhEprtaLdipDFR/5H8VofJehM2lTA1RGbCBoTura9FAjnHOe2yNO2PxSgAAAA" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="footer__item"><a href="">
+                                <img class="footer__social" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKTSURBVHgB3VVNchJREO5+M8QtN3CsEnQXcgLJCcQTOMDWGHMC4AQQE3RHxhOIJwBPIO5S0SrnBrKyKjPDa7vf/MDwn7gyHzXM+/26v36vewD+dyDcA8/drjOzDlpIusYURR7y+RkHOuz43pn/1L2oKoVXOQNm0LIeB7PbL7xouom83PzwGmjWS4iXMSWECRJUk76vMnKFIyDtFVShC1s8T8mJ6DzQ1pObwRsWgkdA9ImXFBfIBWOjoFS/6CHi6Xwch4EOzkRuzvvGpch2+fGYuL7sQKnx3gVUp2ykAkDTQEdHRgEoPIyXUAdMPKl2oAoj2eC43cVQ1ORPYg1rEOrZMCaX2KM5D6Og3Lz8BjwhUi0IplrZHCaspRs5rmOen/Did9KXsMAGsEpaXGMUsFXjZWQ9+n3NVm8GJ68IdN0Qx/PVlPyusDdN/Bi89fjlycGGYFcsFUsnIH/THlmrTQv9nAHeNOFBx6Y/x0K6uOk6Pmh5hrADEdiOhIRw7kQcIsCv8dt6Cf8AxPgSgKbvOQO3OvTiLtUcuev3NoDGQaK5WmNAMlcSR9oFLHxeupp7QZKVX47Q/fROxjkDgpCitkyyzAobGd1VSVp7+PblciQzICqUDo9TI2miwR4oN/qt1Pvk9q0aEMiNESMcw7FsQFBXnDi/tpE/a/a5xFBb2lrTSvnI8kDiXoADh9SsamoswV6e89m14x51FmOfGUg8dJJF/FOSudKWks0VM+otb5IDRQtbfF2qKTlnfxvWwGbG6epnB4da0XkU2T4vKTrux6IFEWezOuQkqpqSHCv0JSzrPM+Y5E8OE7nMQlIJd2OubtvHKTOQouT2K4rPgNB6wST8cYEsH7jw+ZKhkkQRRJNdxA8HfwGNcDR8dvZxmQAAAABJRU5ErkJggg==" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <p class="footer__text">©Всі права захищені.</p>
+    </div>
+
+</footer>
+    <div class="menu hidden" data-menu>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a href="" class="menu__link">Головна</a>
+        </li>
+        <li class="menu__item">
+            <a href="" class="menu__link">Всі оголошення</a>
+        </li>
+        <li class="menu__item">
+            <a href="" class="menu__link">Обране</a>
+            <svg class="menu__heart">
+                <use href="/see-world/assets/symbol-defs-9c65c290.svg#icon-heart"></use>
+              </svg>
+        </li>
+        <li class="menu__item">
+            <a href="" class="menu__link">Особистий кабінет</a>
+            <svg class="menu__user">
+                <use href="/see-world/assets/symbol-defs-9c65c290.svg#icon-user"></use>
+              </svg>
+        </li>
+    </ul>
+</div>
+    
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
