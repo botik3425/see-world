@@ -1,0 +1,14 @@
+.cabinet{
+    margin-bottom: 80px;
+
+    &__arrow{
+        width: 20px;
+height: 20px;
+flex-shrink: 0;
+fill: $link-color;
+    }
+
+    &__moving{
+        color: $additional-color;
+    }
+}
