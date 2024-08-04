@@ -3,6 +3,12 @@
 <symbol id="icon-arrow-left" viewBox="0 0 26 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.96" d="M15.573 10.56l-5.333 5.333 5.333 5.333"></path>
 </symbol>
+<symbol id="icon-heart" viewBox="0 0 32 32">
+<path stroke-width="2.6667" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M27.787 6.147c-1.327-1.328-3.161-2.149-5.187-2.149s-3.859 0.821-5.187 2.149l-1.413 1.413-1.413-1.413c-1.327-1.327-3.161-2.148-5.187-2.148-4.051 0-7.335 3.284-7.335 7.335 0 2.026 0.821 3.859 2.148 5.187l11.787 11.787 11.787-11.787c1.327-1.327 2.149-3.161 2.149-5.187s-0.821-3.859-2.149-5.187v0z"></path>
+</symbol>
+<symbol id="icon-chevron-right" viewBox="0 0 32 32">
+<path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M12 24l8-8-8-8"></path>
+</symbol>
 <symbol id="icon-arrow-right" viewBox="0 0 26 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.96" d="M10.24 21.334l5.333-5.333-5.333-5.333"></path>
 </symbol>

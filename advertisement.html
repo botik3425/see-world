@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/see-world/assets/index-f50099a9.js"></script>
+    <link rel="stylesheet" href="/see-world/assets/advertisement-5603ffaa.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header__container">
+    <button class="header__btn">
+      <svg class="header__icone">
+        <use href="/see-world/assets/symbol-defs-8613cb21.svg#icon-menu" data-menu-open></use>
+      </svg>
+    </button>
+    <a href="/" class="header__logo">
+      <svg class="header__icon">
+        <use href="/see-world/assets/symbol-defs-8613cb21.svg#icon-logo"></use>
+      </svg>
+
+      <p class="header__text">See World</p>
+    </a>
+    <ul class="header__list">
+      <li class="hesder__item">
+        <a href="/" class="header__page">Головна </a>
+      </li>
+      <li class="header__item">
+        <a href="../advertisement.html" class="header__page">Всі оголошення</a>
+      </li>
+
+      <li class="header__item">
+        <a href="/">
+          <svg class="header__heart">
+            <use href="/see-world/assets/symbol-defs-8613cb21.svg#icon-heart"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li class="header__item">
+        <a href="../cabinet.html" class="header__page header__flex">
+          <svg class="header__user">
+            <use href="/see-world/assets/symbol-defs-8613cb21.svg#icon-user"></use>
+          </svg>
+
+          Особистий кабінет</a
+        >
+      </li>
+    </ul>
+    <button class="header__button">Зареєстуватись</button>
+  </div>
+</header>
+
+    <main>
+        <section class="advert">
+  <div class="container">
+    <h1 class="advert__heding">Всі оголошення</h1>
+    <div class="advert__div">
+      <ul class="advert__choice">
+        <li>
+          <input id="checkbox" class="advert__input" type="checkbox" />
+          <label class="advert__label" for="checkbox">Всі оголошення</label>
+        </li>
+        <li>
+          <input id="checkbox" class="advert__input" type="checkbox" />
+          <label class="advert__label" for="checkbox">Пропоную</label>
+        </li>
+        <li>
+          <input id="checkbox" class="advert__input" type="checkbox" />
+          <label class="advert__label" for="checkbox">Шукаю</label>
+        </li>
+      </ul>
+      <button class="advert__button">Фільтр</button>
+    </div>
+    <div class="advert__open">
+      <h3 class="advert__title">Суперекономія</h3>
+      <button class="advert__btnopen">Відкрити всі оголошення</button>
+    </div>
+    <ul class="advert__list">
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/Silverhotel@desktop-1x.webp 1x,
+              ../images/desktop/Silverhotel@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/Silverhotel@tablet-1x.webp 1x,
+              ../images/tablet/Silverhotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/Silverhotel@mobile-1x.webp 1x,
+              ../images/mobile/Silverhotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/Silverhotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Silver Hotel</h3>
+        <p class="advert__address">Petrou Karakousi, Greece</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">7,4</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/Erzsébet@desktop-1x.webp 1x,
+              ../images/desktop/Erzsébet@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/Erzsébet@tablet-1x.webp 1x,
+              ../images/tablet/Erzsébet@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/Erzsébet@mobile-1x.webp 1x,
+              ../images/mobile/Erzsébet@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/Erzsébet@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Erzsébet</h3>
+        <p class="advert__address">Alicante, Spain</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">6,2</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/KViHotel@desktop-1x.webp 1x,
+              ../images/desktop/KViHotel@desktop-1x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/KViHotel@tablet-1x.webp 1x,
+              ../images/tablet/KViHotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/KViHotel@mobile-1x.webp 1x,
+              ../images/mobile/KViHotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/KViHotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">KViHotel</h3>
+        <p class="advert__address">Madrid, Spain</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">7,2</p>
+        </div>
+      </li>
+    </ul>
+    <div class="advert__open">
+      <h3 class="advert__titles">Спецільна пропозиція</h3>
+      <button class="advert__btnopen">Відкрити всі оголошення</button>
+    </div>
+    <ul class="advert__list">
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/SierradeMeira@desktop-1x.webp 1x,
+              ../images/desktop/SierradeMeira@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/SierradeMeira@tablet-1x.webp 1x,
+              ../images/tablet/SierradeMeira@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/SierradeMeira@mobile-1x.webp 1x,
+              ../images/mobile/SierradeMeira@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/SierradeMeira@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Sierra de Meira</h3>
+        <p class="advert__address">Madrid, Spain</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">7,4</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/MolitorHotel@desktop-1x.webp 1x,
+              ../images/desktop/MolitorHotel@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/MolitorHotel@tablet-1x.webp 1x,
+              ../images/tablet/MolitorHotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/MolitorHotel@mobile-1x.webp 1x,
+              ../images/mobile/MolitorHotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/MolitorHotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Molitor Hotel</h3>
+        <p class="advert__address">Paris, France</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">6,9</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/LeGalionHotel@desktop-1x.webp 1x,
+              ../images/desktop/LeGalionHotel@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/LeGalionHotel@tablet-1x.webp 1x,
+              ../images/tablet/LeGalionHotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/LeGalionHotel@mobile-1x.webp 1x,
+              ../images/mobile/LeGalionHotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/LeGalionHotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Le Galion Hotel</h3>
+        <p class="advert__address">Saint-Martin-de-Re, France</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">8,4</p>
+        </div>
+      </li>
+    </ul>
+    <div class="advert__open">
+      <h3 class="advert__titles">Популярні оголошення</h3>
+      <button class="advert__btnopen">Відкрити всі оголошення</button>
+    </div>
+    <ul class="advert__lists">
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/ENAChalets@desktop-1x.webp 1x,
+              ../images/desktop/ENAChalets@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/ENAChalets@tablet-1x.webp 1x,
+              ../images/tablet/ENAChalets@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/ENAChalets@mobile-1x.webp 1x,
+              ../images/mobile/ENAChalets@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/ENAChalets@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">ENA Chalets</h3>
+        <p class="advert__address">Lido di Spina, Italy</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">7,2</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/AlMolo5@desktop-1x.webp 1x,
+              ../images/desktop/AlMolo5@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/AlMolo5@tablet-1x.webp 1x,
+              ../images/tablet/AlMolo5@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/AlMolo5@mobile-1x.webp 1x,
+              ../images/mobile/AlMolo5@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/AlMolo5@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">AlMolo5</h3>
+        <p class="advert__address">Alicante, Spain</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">6,4</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/Justbe@desktop-1x.webp 1x,
+              ../images/desktop/Justbe@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/Justbe@tablet-1x.webp 1x,
+              ../images/tablet/Justbe@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/Justbe@mobile-1x.webp 1x,
+              ../images/mobile/Justbe@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/Justbe@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Just be & b</h3>
+        <p class="advert__address">Petrou Karakousi, Greece</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">7,8</p>
+        </div>
+      </li>
+    </ul>
+    <ul class="advert__lists">
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/Homes@desktop-1x.webp 1x,
+              ../images/desktop/Homes@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/Homes@tablet-1x.webp 1x,
+              ../images/tablet/Homes@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/Homes@mobile-1x.webp 1x,
+              ../images/mobile/Homes@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/Homes@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">HOMES</h3>
+        <p class="advert__address">Erzhebetvaros, Budapest</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">9.2</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/BudgetApartment@desktop-1x.webp 1x,
+              ../images/desktop/BudgetApartment@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/BudgetApartment@tablet-1x.webp 1x,
+              ../images/tablet/BudgetApartment@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/BudgetApartment@mobile-1x.webp 1x,
+              ../images/mobile/BudgetApartment@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/BudgetApartment@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Budget Apartment by Hi5</h3>
+        <p class="advert__address">Saint-Martin-de-Re, France</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">6,5</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/EastStationDeLuxe@desktop-1x.webp 1x,
+              ../images/desktop/EastStationDeLuxe@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/EastStationDeLuxe@tablet-1x.webp 1x,
+              ../images/tablet/EastStationDeLuxe@tablet-1x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/EastStationDeLuxe@mobile-1x.webp 1x,
+              ../images/mobile/EastStationDeLuxe@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/EastStationDeLuxe@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">East Station DeLuxe</h3>
+        <p class="advert__address">Leopoldstadt, Vienna</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">5,4</p>
+        </div>
+      </li>
+    </ul>
+    <ul class="advert__lists">
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/DowntownHomesRelax@desktop-1x.webp 1x,
+              ../images/desktop/DowntownHomesRelax@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/DowntownHomesRelax@tablet-1x.webp 1x,
+              ../images/tablet/DowntownHomesRelax@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/DowntownHomesRelax@mobile-1x.webp 1x,
+              ../images/mobile/DowntownHomesRelax@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/DowntownHomesRelax@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Downtown Homes Relax</h3>
+        <p class="advert__address">Fatih, Istanbul</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">6,1</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/PairofKings@desktop-1x.webp 1x,
+              ../images/desktop/PairofKings@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/PairofKings@tablet-1x.webp 1x,
+              ../images/tablet/PairofKings@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/PairofKings@mobile-1x.webp 1x,
+              ../images/mobile/PairofKings@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/PairofKings@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Pair of Kings</h3>
+        <p class="advert__address">Podgurze, Krakow</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">9,2</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/DesignApartment@desktop-1x.webp 1x,
+              ../images/desktop/DesignApartment@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/DesignApartment@tablet-1x.webp 1x,
+              ../images/tablet/DesignApartment@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/DesignApartment@mobile-1x.webp 1x,
+              ../images/mobile/DesignApartment@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/DesignApartment@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Design Apartment In Party</h3>
+        <p class="advert__address">Rudolfsheim-Fünfhaus, Vienna</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">6,7</p>
+        </div>
+      </li>
+    </ul>
+    <ul class="advert__list">
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/AdagioDowntownMiniHotel@desktop-1x.webp 1x,
+              ../images/desktop/AdagioDowntownMiniHotel@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/AdagioDowntownMiniHotel@tablet-1x.webp 1x,
+              ../images/tablet/AdagioDowntownMiniHotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/AdagioDowntownMiniHotel@mobile-1x.webp 1x,
+              ../images/mobile/AdagioDowntownMiniHotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/AdagioDowntownMiniHotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Adagio Downtown MiniHotel</h3>
+        <p class="advert__address">Baku,Azerbaijan</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">8,8</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/BenczurHotel@desktop-1x.webp 1x,
+              ../images/desktop/BenczurHotel@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/BenczurHotel@tablet-1x.webp 1x,
+              ../images/tablet/BenczurHotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/BenczurHotel@mobile-1x.webp 1x,
+              ../images/mobile/BenczurHotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/BenczurHotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Benczur Hotel</h3>
+        <p class="advert__address">Krakow, Poland</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">5,5</p>
+        </div>
+      </li>
+      <li class="advert__card">
+        <picture>
+          <source
+            srcset="
+              ../images/desktop/EasyStarHotel@desktop-1x.webp 1x,
+              ../images/desktop/EasyStarHotel@desktop-2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../images/tablet/EasyStarHotel@tablet-1x.webp 1x,
+              ../images/tablet/EasyStarHotel@tablet-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/mobile/EasyStarHotel@mobile-1x.webp 1x,
+              ../images/mobile/EasyStarHotel@mobile-2x.webp 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advert__img"
+            src="../images/mobile/EasyStarHotel@mobile-1x.webp"
+            alt="house"
+          />
+        </picture>
+        <h3 class="advert__subtitle">Easy Star Hotel</h3>
+        <p class="advert__address">Andresen, Portugal</p>
+        <div class="advert__point">
+          <svg class="advert__star">
+            <use href="../../images/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <p class="advert__rating">4,8</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="advert__box">
+      <button class="advert__download">Показати ще оголошення</button>
+      <ul class="advert__lisst">
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+          >
+            <path
+              d="M16 29.3337C23.3638 29.3337 29.3333 23.3641 29.3333 16.0003C29.3333 8.63653 23.3638 2.66699 16 2.66699C8.63616 2.66699 2.66663 8.63653 2.66663 16.0003C2.66663 23.3641 8.63616 29.3337 16 29.3337Z"
+              stroke="#266294"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16 10.667L10.6666 16.0003L16 21.3337"
+              stroke="#266294"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M21.3333 16H10.6666"
+              stroke="#266294"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </li>
+        <li><a class="advert__number" href="/">1</a></li>
+        <li><a class="advert__number" href="/">2</a></li>
+        <li><a class="advert__number" href="/">3</a></li>
+        <li><a class="advert__number" href="/">4</a></li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+          >
+            <path
+              d="M16 29.3337C23.3638 29.3337 29.3333 23.3641 29.3333 16.0003C29.3333 8.63653 23.3638 2.66699 16 2.66699C8.63616 2.66699 2.66663 8.63653 2.66663 16.0003C2.66663 23.3641 8.63616 29.3337 16 29.3337Z"
+              stroke="#266294"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16 21.3337L21.3333 16.0003L16 10.667"
+              stroke="#266294"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10.6666 16H21.3333"
+              stroke="#266294"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+            <a class="footer__logo" href="">
+                <img class="footer__photo" src="data:image/webp;base64,UklGRiIEAABXRUJQVlA4WAoAAAAQAAAANgAANgAAQUxQSGsCAAABoFXbVhjZ2hJwcI8EHDwk4KBx0Dio4yA4IA7yHCAhEo4EJOyPSshJK4iICYCz5KrfJUX82VCPyXP0T8n/SaptK/IX0uC94lrqlt9KJ28nM1bLKG/Ewet59prwsBzi9qtpfs2RAOTjHLoSo358Qo8IXwrHED/GaUdwEOsCyDEqHkoWQEny6DR5JGYBvvk8A0KuxtxIkwdi9VN9dKZpEqJpD3KSJkvBSHIEDyC2bTOSnJMkz7BSB8k5ik9QPtwWyiCthtF9AH3AfCM2yVkjfM3G5Oh1druZ4aqTHC3AeZJsglx2VZJyTOqF0Djgf5AmQJBQfkY/a042w1cnD7z50TrMbEhCOippRgUgJOWNX97iO5bdyDMAhRx4MfPeukgFpJKzAoMmL8i5QHLQeh0kBwJZ4J8nnWfIVeoLRs8+Oc/UgOhX6Dob2euGrNGt+lBJdu2IZcTgk53GTp7WEeD+cWIiz3MW+O9efe6qWhCSV/Kixk1DyzbtUBcUrzm0Q3Z+by6oTmxNgXJBO8QBZZIctTwRVaBfkeYBEQQAkpcatAG2IB73acUArf9w3tE28dOVglhiwVgg7dDgJHY3gRLRkJZI2scH9c6ABmjAeMDpFO6I2IBUUJ40J9iNBYsAFGhrFpyEt60NACgJaEsJzv1GYeULHch/YdwgGS5ThizBW68MJV1hC1hRt3AlorgNCruyhBcvFCp3SHW/+h9vHiR3fCJW67wweSVzKn4q1vWrCV4NGfhRPFWeVfD6j+K5drz/qfDMKi9Jj/AVLa/8aoB7HsktacKrZS/BIVRNeD22rciSlFYT/mYser9rEbgCAFZQOCCQAQAAsAkAnQEqNwA3AD6ROJVHpaMiITP02qiwEglsALs5ADo3qE+S4kPgHVJINrgeoDbAeYDzyPQ3/lN8A3kP/BgvA++NyEvVwpMgBOop7MSc0uN63qbn9QAA/vMD//sg//sZj//YexAhrDc/fvTQtPXs7GJcTwTIePBKbAmRZ+xKP8PN0GW5nGVSoiZsFdNKInSFmCm7B9nz4suuT12v/CbZBXrbVFcXcpXmue4Nfum35HpHQ9J6NO97T5/2sG//9QgYlSNgl45PG9/aAJSQVLgDlZ99+j2ZaJKYVDFdggVsguCTb34mDFdPip6/2Es/dzwMpYe45NmG3d0TOAwcdcckQFs0Mp4HisWEWsDe1CnYU5NyOsw3A3rYZw3hd3fvOr//ykitrxOn/Wo8H0rNb8HuICxJKwta9wzoeQyLC1msREzGBpNIOY7/rD61/IE7tG6WpP+Uf//1CBAO9lcgY5BbSe4bsWS7aTW803N1LNVTCSAXRCcS/IcWsQTWkOY3Ll/2Rzi7nZYb+Zk5//9jCTgAAA==" alt="planet">See World</a>
+
+
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="">Головна </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Всі оголошення</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Обране</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Особистий кабінет</a>
+                    <ul class="footer__socials">
+                        <li class="footer__item">
+                            <a href="">
+                                <img class="footer__social" src="data:image/webp;base64,UklGRgoBAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSHAAAAABf2CQbaQ/gqvBK7y/3ktERI5v9lKA40iSHKXRcmJwDBvABMzjiQkbOHAuzA9NfXYWaUBE/ydAr6/2YMkR8OSx7kWy63rKDpvtkyS8gGXhSpseeIBVwEqDJJ3mLZdJDSswqDzwoFM9PFz/ARoKWJYDVlA4IHQAAACQBACdASoYABgAPpE6mUeloyKhKA1QsBIJaAC7OUE0A4QzQEIAAKTH2nmGW6AA/vxHayMkOTNclLDBo60cibfRwErFdjU7a1/I7ZpXZvaX19rzu938Dh8A3VDqVLH1hX//ZVa7KOkvWl7ef+9a4kdwBLAAAA==" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="">
+                                <img class="footer__social" src="data:image/webp;base64,UklGRnQBAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSKwAAAABgFXbbt1IEMSggmAIhhAIhhAGEYOEgcsgZWAIhiAIhnB+8mpnAETEBMg/mte9R3Aa0dtaRGTh0UUy+JTMVI7NUvZB3ljlQWdr5KM5X5n4dNJBhmpnRgz0DBY7UgbISX9DlAOBK01swPyENQh7YMBwlZPgdQKbyrERnXSg0bKcZ9qbcnBz5jPT7Z4GRQN622ut7u611tpiECq282AzERFNeSpldncvpZScVP5TVlA4IKIAAABwBQCdASoYABgAPpFCm0olo6IhqAgAsBIJbACdMyQCroAP0r8yv9M+D/0p32a/+2BCupfAAP7tBywa3wBxdMPi41beWhMB+YLSweNO+EJiZljXfFT4t1a4+DeOySzamyh5vMC0pklB+f5dwBBLtGY1j/lK0CY0X/afH8u1zk//2Rz0LOKlvFj2p/9gAs81/9vutEW6lRmx/+/Gh6+/8qrAAAA=" alt="youtube">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">
+                                <img class="footer__social" src="data:image/webp;base64,UklGRmwBAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSJsAAAABgFZbb9jmQRCDGkIhGIIhmEHLIGIwSIZgCIIQCN8P50grg4iYAH5p11J6z6cWKkc7QtGN7AiFwVQYRQs5bA3SzRtdCyTyLsekzFjSnjRvkLr0+MeZmdLXmLdmZekLMLQqt+xAqr3+acmPj3alS1ezS5oVXI9Oife679VJ2UP+WOq1oQ2usIqFJlgoRsp6KABaqBztgLlzy41fAgBWUDggqgAAAJAFAJ0BKhgAGAA+kT6bSSWjIqEoCqiwEglqAJ0yhHtfoFyGcA2wHPHaYB6AHld+ymBCfqgAAP7tBy5Ido5P8OcDocm4KcchX18xx28Mu5od4NzhMjmd1qf+9Cw8I1lx7QrmvDSp9nTlZ2wn3UgWnP/um2MSNBxvHgnGUh8FhEprtaLdipDFR/5H8VofJehM2lTA1RGbCBoTura9FAjnHOe2yNO2PxSgAAAA" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="footer__item"><a href="">
+                                <img class="footer__social" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKTSURBVHgB3VVNchJREO5+M8QtN3CsEnQXcgLJCcQTOMDWGHMC4AQQE3RHxhOIJwBPIO5S0SrnBrKyKjPDa7vf/MDwn7gyHzXM+/26v36vewD+dyDcA8/drjOzDlpIusYURR7y+RkHOuz43pn/1L2oKoVXOQNm0LIeB7PbL7xouom83PzwGmjWS4iXMSWECRJUk76vMnKFIyDtFVShC1s8T8mJ6DzQ1pObwRsWgkdA9ImXFBfIBWOjoFS/6CHi6Xwch4EOzkRuzvvGpch2+fGYuL7sQKnx3gVUp2ykAkDTQEdHRgEoPIyXUAdMPKl2oAoj2eC43cVQ1ORPYg1rEOrZMCaX2KM5D6Og3Lz8BjwhUi0IplrZHCaspRs5rmOen/Did9KXsMAGsEpaXGMUsFXjZWQ9+n3NVm8GJ68IdN0Qx/PVlPyusDdN/Bi89fjlycGGYFcsFUsnIH/THlmrTQv9nAHeNOFBx6Y/x0K6uOk6Pmh5hrADEdiOhIRw7kQcIsCv8dt6Cf8AxPgSgKbvOQO3OvTiLtUcuev3NoDGQaK5WmNAMlcSR9oFLHxeupp7QZKVX47Q/fROxjkDgpCitkyyzAobGd1VSVp7+PblciQzICqUDo9TI2miwR4oN/qt1Pvk9q0aEMiNESMcw7FsQFBXnDi/tpE/a/a5xFBb2lrTSvnI8kDiXoADh9SsamoswV6e89m14x51FmOfGUg8dJJF/FOSudKWks0VM+otb5IDRQtbfF2qKTlnfxvWwGbG6epnB4da0XkU2T4vKTrux6IFEWezOuQkqpqSHCv0JSzrPM+Y5E8OE7nMQlIJd2OubtvHKTOQouT2K4rPgNB6wST8cYEsH7jw+ZKhkkQRRJNdxA8HfwGNcDR8dvZxmQAAAABJRU5ErkJggg==" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <p class="footer__text">©Всі права захищені.</p>
+    </div>
+
+</footer>
+    
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
