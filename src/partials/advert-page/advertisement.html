@@ -1,125 +1,24 @@
 <section class="advert">
   <div class="container">
-    <div id="advertContainer">
-      <h1 class="advert__heding">Всі оголошення</h1>
-      <button id="closeAdvert" onclick="filterClose()" class="advert__button">Фільтр</button> 
+    <h1 class="advert__heding">Всі оголошення</h1>
+    <div class="advert__div">
+      <ul class="advert__choice">
+        <li>
+          <input id="checkbox" class="advert__input" type="checkbox" />
+          <label class="advert__label" for="checkbox">Всі оголошення</label>
+        </li>
+        <li>
+          <input id="checkbox" class="advert__input" type="checkbox" />
+          <label class="advert__label" for="checkbox">Пропоную</label>
+        </li>
+        <li>
+          <input id="checkbox" class="advert__input" type="checkbox" />
+          <label class="advert__label" for="checkbox">Шукаю</label>
+        </li>
+      </ul>
+      <button class="advert__button">Фільтр</button>
     </div>
-      <div id="advertDiv" class="advert__div">
-        <ul id="advertList" class="advert__choice">
-          <li>
-            <input id="checkbox" class="advert__input" type="checkbox" />
-            <label class="advert__label" for="checkbox">Всі оголошення</label>
-          </li>
-          <li>
-            <input id="checkbox" class="advert__input" type="checkbox" />
-            <label class="advert__label" for="checkbox">Пропоную</label>
-          </li>
-          <li>
-            <input id="checkbox" class="advert__input" type="checkbox" />
-            <label class="advert__label" for="checkbox">Шукаю</label>
-          </li>
-        </ul>
-        <button onclick="filterOpen()" class="advert__button">Фільтр</button>     
-      </div>
-      <form id="advertForm">
-        <ul class="announcements__list">
-          <li class="announcements__item">
-            <h3>За типом оголошення</h3>
-            <ul class="typeannounce-list">
-              <li class="typeannounce-item">
-                 <input type="radio" id="html" name="fav_language" />  <label
-                  for="html"
-                  >Всі оголошення</label
-                ><br />
-              </li>
-              <li class="typeannounce-item">
-                 <input type="radio" id="css" name="fav_language" />  <label
-                  for="css"
-                  >Пропоную</label
-                ><br />
-              </li>
-              <li class="typeannounce-item">
-                 <input type="radio" id="javascript" name="fav_language" />
-                 <label for="javascript">Шукаю</label>
-              </li>
-            </ul>
-          </li>
-          <li class="announcements__item">
-            <h3>Категорія оголошення</h3>
-            <ul class="homeannounce-list">
-              <li class="homeannounce-item">
-                <input type="checkbox" id="vehicle1" value="Будинок" />
-                <label for="vehicle1">Будинок</label><br />
-              </li>
-              <li class="homeannounce-item">
-                <input type="checkbox" id="vehicle2" value="Квартира" />
-                <label for="vehicle2">Квартира</label><br />
-              </li>
-              <li class="homeannounce-item">
-                <input type="checkbox" id="vehicle3" value="Студія" />
-                <label for="vehicle3">Студія</label><br />
-              </li>
-              <li class="homeannounce-item">
-                <input type="checkbox" id="vehicle3" value="Кімната" />
-                <label for="vehicle3">Кімната</label><br />
-              </li>
-            </ul>
-          </li>
-          <li class="announcements__item">
-            <h3>Виберіть країну</h3>
-            <select class="select-text" name="Країна">
-              <option value="Україна">Україна</option>
-              <option value="Франція">Франція</option>
-              <option value="Італія">Італія</option>
-              <option value="Польща">Польща</option>
-              <option value="Швейцарія">Швейцарія</option>
-              <option value="Латвія">Латвія</option>
-              <option value="Словенія">Словенія</option>
-              <option value="Іспанія">Іспанія</option>
-              <option value="Португалія">Португалія</option>
-              <option value="Фінляндія">Фінляндія</option>
-              <option value="Норвегія">Норвегія</option>
-              <option value="Данія">Данія</option>
-              <option value="Германія">Германія</option>
-              <option value="Хорватія">Хорватія</option>
-              <option value="Нідерланди">Нідерланди</option>
-            </select>
-          </li>
-          <li class="announcements__item">
-            <ul class="announcedate-list">
-              <li class="announcedate-item">
-                <h4>Дата приїзду</h4>
-                <input
-                  type="date"
-                  id="start"
-                  name="trip-start"
-                  value="2018-07-22"
-                  min="2018-01-01"
-                  max="2018-12-31"
-                />
-              </li>
-              <li class="announcedate-item">
-                <h4>Дата від’їзду</h4>
-                <input
-                  type="date"
-                  id="start"
-                  name="trip-start"
-                  value="2018-07-22"
-                  min="2018-01-01"
-                  max="2018-12-31"
-                />
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <button class="announcements__submit" type="submit">
-          Застосувати фільтр
-        </button>
-      </form>  
-
-
-
-    <div id="advertOpen" class="advert__open">
+    <div class="advert__open">
       <h3 class="advert__title">Суперекономія</h3>
       <button class="advert__btnopen">Відкрити всі оголошення</button>
     </div>
