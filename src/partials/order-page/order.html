@@ -1,51 +1,150 @@
 <section class="order">
-    <div class="container">
-        <h1 class="order__title">Іспанія Мадрид</h1>
-        <p class="order__text">Однокімнатна квартира в центрі Мадриду</p>
-        <div class="order__cost">
-        <p class="order__information">Вартисть за три доби</p>
-        <p class="order__price">320$</p>
+  <div class="container">
+    <h1 class="order__title">Іспанія Мадрид</h1>
+    <p class="order__text">Однокімнатна квартира в центрі Мадриду</p>
+    <div class="order__cost">
+      <p class="order__information">Вартисть за три доби</p>
+      <p class="order__price">320$</p>
     </div>
     <div class="order__reference">
-        <a href="/" class="order__link">Додати оголошення в обране</a>
-        <button type="submit" class="order__button">Забронювати</button>
+      <a href="/" class="order__link">Додати оголошення в обране</a>
+      <button type="submit" class="order__button">Забронювати</button>
     </div>
-        <img src="../../images/bigroom.webp" alt="bigroom" class="order__bigroom">
-        <ul class="order__list">
-            <li class="order__iteam">
-                <img src="../../images/dorm.webp" alt="dorm" class="order__room">
-            </li>
-            <li class="order__iteam">
-                <img src="../../images/toillet.webp" alt="toillet" class="order__room">
-            </li>
-            <li class="order__iteam">
-                <img src="../../images/lavatory.webp" alt="lavatory" class="order__room">
-            </li>
-            <li class="order__iteam">
-                <img src="../../images/cookery.webp" alt="cookery" class="order__room">
-            </li>
-        </ul>
-        <ul class="order__sublist">
-            <li class="order__subiteam">
-                <svg class="order__subicon">
-                    <use href="../../images/symbol-defs.svg#icon-ellipse">
-                </svg>
-            </li>
-            <li class="order__subiteam">
-                <svg class="order__icon">
-                    <use href="../../images/symbol-defs.svg#icon-ellipse">
-                </svg>
-            </li>
-            <li class="order__subiteam">
-                <svg class="order__icon">
-                    <use href="../../images/symbol-defs.svg#icon-ellipse">
-                </svg>
-            </li>
-            <li class="order__subiteam">
-                <svg class="order__icon">
-                    <use href="../../images/symbol-defs.svg#icon-ellipse">
-                </svg>
-            </li>
-        </ul>
+    <div class="order__bacround">
+        <img class="order__heart" src="../../images/heart.webp" alt="heart">
+        <picture>
+          <source
+          srcset="
+          ../../images/desktop/bigroom@desktop-1x.webp 1x,
+          ../../images/desktop/bigroom@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+          <source
+          srcset="
+            ../../images/tablet/bigroom@tablet-1x.webp 1x,
+            ../../images/tablet/bigroom@tablet-2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+        srcset="
+          ../../images/mobile/bigroom@mobile-1x.webp 1x,
+          ../../images/mobile/bigroom@mobile-2x.webp 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img
+        src="../../images/bigroom.webp"
+        alt="bigroom"
+        class="order__bigroom"
+      />
+    </picture>
     </div>
+    <ul class="order__list">
+      <li class="order__iteam">
+        <picture>
+          <source
+          srcset="
+          ../../images/desktop/dorm@desktop-1x.webp 1x,
+          ../../images/desktop/dorm@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+          <source
+          srcset="
+            ../../images/tablet/dorm@tablet-1x.webp 1x,
+            ../../images/tablet/dorm@tablet-2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img src="../../images/dorm.webp" alt="dorm" class="order__room" />
+      </picture>
+      </li>
+      <li class="order__iteam">
+        <picture>
+        <source
+          srcset="
+          ../../images/desktop/toillet@desktop-1x.webp 1x,
+          ../../images/desktop/toillet@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+        <source
+        srcset="
+          ../../images/tablet/toillet@tablet-1x.webp 1x,
+          ../../images/tablet/toillet@tablet-2x.webp 2x
+        "
+        media="(min-width: 768px)"
+      />
+        <img
+        src="../../images/toillet.webp"
+        alt="toillet"
+        class="order__room"
+      />
+        </picture>
+      </li>
+      <li class="order__iteam">
+        <picture>
+          <source
+          srcset="
+          ../../images/desktop/lavatory@desktop-1x.webp 1x,
+          ../../images/desktop/lavatory@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+        <img
+          src="../../images/lavatory.webp"
+          alt="lavatory"
+          class="order__room order__img"
+        />
+      </picture>
+      </li>
+      <li class="order__iteam">
+        <picture>
+        <source
+          srcset="
+          ../../images/desktop/cookery@desktop-1x.webp 1x,
+          ../../images/desktop/cookery@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+        <source
+        srcset="
+          ../../images/tablet/cookery@tablet-1x.webp 1x,
+          ../../images/tablet/cookery@tablet-2x.webp 2x
+        "
+        media="(min-width: 768px)"
+      />
+        <img
+          src="../../images/cookery.webp"
+          alt="cookery"
+          class="order__room"
+        />
+      </picture>
+      </li>
+    </ul>
+    <ul class="order__sublist">
+      <li class="order__subiteam">
+        <svg class="order__subicon">
+          <use href="../../images/symbol-defs.svg#icon-ellipse"></use>
+        </svg>
+      </li>
+      <li class="order__subiteam">
+        <svg class="order__icon">
+          <use href="../../images/symbol-defs.svg#icon-ellipse"></use>
+        </svg>
+      </li>
+      <li class="order__subiteam">
+        <svg class="order__icon">
+          <use href="../../images/symbol-defs.svg#icon-ellipse"></use>
+        </svg>
+      </li>
+      <li class="order__subiteam">
+        <svg class="order__icon">
+          <use href="../../images/symbol-defs.svg#icon-ellipse"></use>
+        </svg>
+      </li>
+    </ul>
+  </div>
 </section>
