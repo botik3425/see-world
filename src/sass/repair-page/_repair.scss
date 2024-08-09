@@ -1,9 +1,20 @@
 .repair {
-  padding-top: 9px;
-  padding-bottom: 173px;
+  padding-bottom: 136px;
+  padding-top: 92px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 350px;
+    padding-top: 9px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 173px;
+    padding-top: 9px;
+  }
 
   &__subcontainer {
-    display: flex;
+    display: none;
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
 
   &__subtext {
@@ -20,7 +31,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 32px;
+    row-gap: 28px;
+    @media screen and (min-width: 768px) {
+      row-gap: 32px;
+    }
   }
 
   &__title {
@@ -37,24 +51,34 @@
     color: var(--Web_service_color-black_hero, #111);
     text-align: center;
     font-family: Play;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 27px */
     max-width: 370px;
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   &__input {
     display: flex;
-    padding: 12px 346px 12px 16px;
     align-items: center;
     color: var(--Web_service_color-Hero_blue, #266294);
     font-family: Play;
     font-size: 16px;
+    padding: 12px 287px 12px 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     border: 3px solid var(--Web_service_color-Hero_blue, #266294);
+    @media screen and (max-width: 520px) {
+      width: 100%;
+      padding: 12px 0px 10px 0px;
+    }
+    @media screen and (min-width: 768px) {
+      padding: 12px 346px 12px 16px;
+    }
   }
 
   &__link {
@@ -69,7 +93,7 @@
 
   &__button {
     display: flex;
-    width: 409px;
+    width: 350px;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
@@ -80,6 +104,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 20px */
+    @media screen and (max-width: 768px) {
+      width: 414px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 409px;
+    }
   }
 }
 
