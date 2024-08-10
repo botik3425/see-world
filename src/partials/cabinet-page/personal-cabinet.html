@@ -1,55 +1,99 @@
+<div class="stantion">
+  <div class="container stantion__containre">
+    <a href="../index.html" class="stantion__moving">Головна</a>
+    <svg class="stantion__arrow">
+      <use href="./images/symbol-defs.svg#icon-chevron-right"></use>
+    </svg>
+    <a href="../cabinet.html" class="stantion__moving">Особистий кабінет</a>
+  </div>
+</div>
 <section class="cabinet">
-    <div class="container">
-        <div class="cabinet__moves">
-        <a href="../index.html" class="cabinet__moving">Головна</a>
-        <svg class="cabinet__arrow">
-            <use href="./images/symbol-defs.svg#icon-chevron-right"></use>
-          </svg>
-          <a href="../cabinet.html" class="cabinet__moving">Особистий кабінет</a>
-    </div>
+  <div class="container">
     <h1 class="cabinet__title">Особистий кабінет</h1>
-    <p class="cabinet__information">Оновіть свою інформацію та дізнайтеся, як вона використовується.</p>
-    <div>
-        <ul class="cabinet__list">
-        <li class="cabinet__item"><a href="" class="cabinet__link">Особисті дані</a></li>
-        <li class="cabinet__item"><a href="" class="cabinet__link">Мої оголошення</a></li>
-        <li class="cabinet__item"><a href="" class="cabinet__link">Обране</a></li>
-        <li class="cabinet__item"><a href="" class="cabinet__link">Платіжні дані</a></li>
-        <li class="cabinet__item"><a href="" class="cabinet__link">Безпека</a></li>
+    <p class="cabinet__information">
+      Оновіть свою інформацію та дізнайтеся, як вона використовується.
+    </p>
+    <div class="cabinet__containre">
+      <div>
+        <ul class="cabinet__links">
+          <li class="cabinet__item">
+            <a href="" class="cabinet__link">Особисті дані</a>
+          </li>
+          <li class="cabinet__item">
+            <a href="" class="cabinet__link">Мої оголошення</a>
+          </li>
+          <li class="cabinet__item">
+            <a href="" class="cabinet__link">Обране</a>
+          </li>
+          <li class="cabinet__item">
+            <a href="" class="cabinet__link">Платіжні дані</a>
+          </li>
+          <li class="cabinet__item">
+            <a href="" class="cabinet__link">Безпека</a>
+          </li>
         </ul>
+      </div>
+      <form action="" class="cabinet__form">
+        <ul class="cabinet__list">
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">Ваше ім’я</p>
+            </div>
+            <label class="cabinet__label"
+              ><input class="cabinet__input" placeholder="Джозеф" type="text"
+            /></label>
+          </li>
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">Ваше прізвище</p>
+            </div>
+            <label class="cabinet__label"
+              ><input class="cabinet__input" placeholder="Хофер" type="text"
+            /></label>
+          </li>
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">email</p>
+            </div>
+            <label class="cabinet__label"
+              ><input class="cabinet__input" placeholder="Hoferd@gmail.com" type="email"
+            /></label>
+          </li>
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">Номер телефону</p>
+            </div>
+            <label class="cabinet__label"
+              ><input class="cabinet__input" placeholder="+380933162639" type="tel"
+            /></label>
+          </li>
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">Дата народження</p>
+            </div>
+            <label class="cabinet__label"
+              ><input class="cabinet__input" placeholder="01/01/1988" type="date"
+            /></label>
+          </li>
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">Стать</p>
+            </div>
+            <label class="cabinet__label"
+              ><input input class="cabinet__input" placeholder="Чоловік" type="text"
+            /></label>
+          </li>
+          <li class="cabinet__element">
+            <div class="cabinet__box">
+              <p class="cabinet__text">Ваша країна</p>
+            </div>
+            <label class="cabinet__label"
+              ><input class="cabinet__input" placeholder="Країна/регіон" type="text"
+            /></label>
+          </li>
+        </ul>
+        <button class="cabinet__button">Змінити</button>
+      </form>
     </div>
-    <form action="">
-        <ul>
-        <li>
-            <p>Ваше ім’я</p>
-            <label><input type="text"></label>
-        </li>
-        <li>
-            <p>Ваше прізвище</p>
-            <label><input type="text"></label>
-        </li>
-        <li>
-            <p>email</p>
-            <label><input type="email"></label>
-        </li>
-        <li>
-            <p>Номер телефону</p>
-            <label><input type="tel"></label>
-        </li>
-        <li>
-            <p>Дата народження</p>
-            <label><input type="date"></label>
-        </li>
-        <li>
-            <p>Стать</p>
-            <label><input type="text"></label>
-        </li>
-        <li>
-            <p>Ваша країна</p>
-            <label><input type="text"></label>
-        </li>
-    </ul>
-<button>Змінити</button>
-</form>
-    </div>
+  </div>
 </section>
