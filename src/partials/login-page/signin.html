@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+
+    <link rel="stylesheet" href="../../sass/login-page/_signin.scss" />
+    <link rel="stylesheet" href="../../sass/base/_common.scss" />
+    <link rel="stylesheet" href="../../sass/base/_reset.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <a href="./index.html" class="signin-page">Головна</a>
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.5 15L12.5 10L7.5 5"
+          stroke="#266294"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a href="./signin.html" class="signin-page">Вхід</a>
+    </div>
+    <div class="container signin">
+      <h2 class="signin__sign">Увійти</h2>
+      <p class="signin__text">
+        Увійдіть, щоб отримати можливість запропонувати своє житло
+      </p>
+
+      <div class="signin__checkbox">
+        <label
+          ><input type="checkbox" name="contact" value="phone" checked /> Номер
+          телефону</label
+        >
+        <label
+          ><input type="checkbox" name="contact" value="email" /> Email</label
+        >
+      </div>
+
+      <div class="signin__login">
+        <input
+          class="signin__input"
+          type="text"
+          placeholder="Номер телефону*"
+        />
+      </div>
+
+      <div class="signin__login">
+        <input
+          class="signin__input"
+          type="password"
+          placeholder="************"
+        />
+        <svg class="signin__svg">
+          <use href="../../images/eye-off.svg#icon-eye"></use>
+        </svg>
+      </div>
+
+      <a class="signin__fpassword" href="../../repair.html">Забули пароль?</a>
+
+      <button class="signin__button">Увійти</button>
+
+      <p class="signin__subtext">Або використовуйте</p>
+      <ul class="signin__social">
+        <li>
+          <a href="/">
+            <svg class="signin__google">
+              <use href="../../images/google.svg#icon-google"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <svg class="signin__facebook">
+              <use href="../../images/facebook.svg#icon-facebook-signin"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <svg class="signin__twitter">
+              <use href="../../images/twitter.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <p class="signin__subtext">Не маєте акаунту?</p>
+      <a class="signin__register" href="../cabinet-page/personal-cabinet.html"
+        >Зареєструйтесь</a
+      >
+    </div>
+  </body>
+</html>

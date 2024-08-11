@@ -1,0 +1,218 @@
+.box {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .signin-page {
+    color: #53585f;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+}
+
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 390px;
+
+  padding-top: 32px;
+  padding-bottom: 50px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 24px;
+    padding-left: 24px;
+    min-width: 462px;
+  }
+
+  &__sign {
+    color: #111111;
+    font-size: 32px;
+    font-family: Play;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
+
+  &__text {
+    color: #111111;
+    font-size: 16px;
+    font-family: Play;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+    @media screen and (min-width: 768px) {
+      line-height: 27px;
+      margin-top: 28px;
+      margin-bottom: 28px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+
+  &__checkbox {
+    color: #111111;
+    font-size: 20px;
+    font-family: Play;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    gap: 31px;
+    padding-bottom: 28px;
+  }
+
+  &__login {
+    position: relative;
+    margin-bottom: 28px;
+  }
+
+  &__input {
+    min-width: 350px;
+    padding: 12px 16px 12px 16px;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+
+    @media screen and (min-width: 768px) {
+      min-width: 414px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      min-width: 409px;
+    }
+  }
+
+  &__input:hover,
+  &__input:focus {
+    border-color: #266294;
+  }
+
+  &__input:hover::placeholder {
+    color: #266294;
+  }
+
+  &__svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0.7;
+  }
+
+  &__svg:hover {
+    opacity: 1;
+  }
+
+  &__fpassword {
+    color: #766f6f;
+    font-size: 20px;
+    font-family: Play;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 26px;
+    word-wrap: break-word;
+    margin-bottom: 22px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__button {
+    color: #ebf8ff;
+    background-color: #266294;
+    font-size: 20px;
+    font-family: Play;
+    font-weight: 700;
+    line-height: 20px;
+    word-wrap: break-word;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    min-width: 350px;
+    margin-bottom: 22px;
+
+    @media screen and (min-width: 768px) {
+      min-width: 414px;
+      margin-bottom: 28px;
+    }
+  }
+
+  &__subtext {
+    color: #111111;
+    font-size: 16px;
+    font-family: Play;
+    font-weight: 700;
+    line-height: 20.8px;
+    word-wrap: break-word;
+    margin-bottom: 22px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 28px;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 22px;
+  }
+
+  &__google {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  &__facebook {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  &__twitter {
+    max-width: 40px;
+    max-height: 40px;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  &__register {
+    color: #766f6f;
+    font-size: 20px;
+    font-family: Play;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 26px;
+    word-wrap: break-word;
+  }
+}
